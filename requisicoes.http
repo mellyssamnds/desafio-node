@@ -1,0 +1,14 @@
+POST http://localhost:3333/courses
+Content-Type: application/json
+
+{
+    "title": "Curso de Fastify"
+}
+
+###
+
+GET http://localhost:3333/courses
+
+###
+
+GET http://localhost:3333/courses/bc8bf7cb-c342-4a58-a041-4b896b02120b
